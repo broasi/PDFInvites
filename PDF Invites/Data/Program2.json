@@ -1,0 +1,134 @@
+[  
+  {
+    "topic": "Rheum 2016 Non Branded Joint Decisions",
+    "front": "Joint Decisions.png",
+    "back": "",
+    "orientation": "PortraitStandard",
+    "assembly": "front",
+    "x1": 775,
+    "y1": 1400,
+    "x2": 0,
+    "y2": 0,
+    "font_size": 10,
+    "no_of_columns": 1,
+    "description": "Joint Decisions",
+    "brush_color": "black",
+    "cred": "3",
+    "date": "2",
+    "venue": "2",
+    "present": "1",
+    "mtgcd": "1",
+    "reg": "0",
+    "rsvp": "1",
+    "active": "True",
+    "myPages": [
+      {
+        "fname": "Jess",
+        "lname": "Bautista"
+      },
+      {
+        "fname": "Gerald",
+        "lname": "Santos"
+      }
+    ]
+  },
+  {
+    "topic": "Rheum 2016 Simponi Aria Slide Deck",
+    "front": "Simponi Aria 30-minute.png",
+    "back": "",
+    "orientation": "PortraitStandard",
+    "assembly": "front",
+    "x1": 1995,
+    "y1": 1820,
+    "x2": 0,
+    "y2": 0,
+    "font_size": 9,
+    "no_of_columns": 1,
+    "description": "Simponi Aria 30-minute",
+    "brush_color": "black",
+    "cred": "0",
+    "date": "3",
+    "venue": "3",
+    "present": "0",
+    "mtgcd": "1",
+    "reg": "0",
+    "rsvp": "1", 
+    "active":  "True",
+    "myPages": [
+      {
+        "fname": "Lilly",
+        "lname": "Bautista"
+      },
+      {
+        "fname": "Anne",
+        "lname": "Santos"
+      }
+    ]
+  },
+  {
+    "topic": "Rheum 2016 Simponi Aria Slide Deck (NP PA)",
+    "front": "Simponi Aria 30-minute.png",
+    "back": "",
+    "orientation": "PortraitStandard",
+    "assembly": "front",
+    "x1": 1995,
+    "y1": 1820,
+    "x2": 0,
+    "y2": 0,
+    "font_size": 9,
+    "no_of_columns": 1,
+    "description": "Simponi Aria 30-minute",
+    "brush_color": "black",
+     "cred": "0",
+    "date": "3",
+    "venue": "3",
+    "present": "0",
+    "mtgcd": "1",
+    "reg": "0",
+    "rsvp": "1", 
+    "active":  "True",
+    "myPages": [
+      {
+        "fname": "Mark",
+        "lname": "Bautista"
+      },
+      {
+        "fname": "Gina",
+        "lname": "Santos"
+      }
+    ]
+  },
+  {
+    "topic": "Rheum 2016 Women in Rheumatology - Simponi Aria Slide Deck",
+    "front": "Simponi Aria 30-minute.png",
+    "back": "",
+    "orientation": "PortraitStandard",
+    "assembly": "front",
+    "x1": 1995,
+    "y1": 1820,
+    "x2": 0,
+    "y2": 0,
+    "font_size": 9,
+    "no_of_columns": 1,
+    "description": "Simponi Aria 30-minute",
+    "brush_color": "black",
+    "cred": "0",
+    "date": "3",
+    "venue": "3",
+    "present": "0",
+    "mtgcd": "1",
+    "reg": "0",
+    "rsvp": "1", 
+    "active":  "True",
+    "myPages": [
+      {
+        "fname": "Sam",
+        "lname": "Bautista"
+      },
+      {
+        "fname": "Danielle",
+        "lname": "Santos"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+c:\users\stat3297\documents\visual studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\PDF Invites.exe.config
+C:\Users\stat3297\documents\visual studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\PDF Invites.exe
+C:\Users\stat3297\documents\visual studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\PDF Invites.pdb
+C:\Users\stat3297\documents\visual studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\itextsharp.dll
+C:\Users\stat3297\documents\visual studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\itextsharp.pdfa.dll
+C:\Users\stat3297\documents\visual studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\Newtonsoft.Json.dll
+C:\Users\stat3297\documents\visual studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\Newtonsoft.Json.xml
+C:\Users\stat3297\documents\visual studio 2015\Projects\PDF Invites\PDF Invites\obj\Debug\PDF Invites.csprojResolveAssemblyReference.cache
+C:\Users\stat3297\documents\visual studio 2015\Projects\PDF Invites\PDF Invites\obj\Debug\PDF Invites.exe
+C:\Users\stat3297\documents\visual studio 2015\Projects\PDF Invites\PDF Invites\obj\Debug\PDF Invites.pdb

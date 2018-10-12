@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Stratadial" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=SQLCLUSTER\SQLCLUSTER;Initial Catalog=Stratadial;Integrated Security=True;Encrypt=False;TrustServerCertificate=True" SettingsObjectName="PDF_Invites.Properties.Settings" SettingsPropertyName="StratadialConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.JB_INVITE" Member="JB_INVITEs">
+    <Type Name="JB_INVITE">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[Meeting Coordinator]" Member="Meeting_Coordinator" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[NFP Code/Janssen ID]" Member="NFP_Code_Janssen_ID" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Topic" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="DomeManager" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="PriorityDriver" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Type of Program]" Member="Type_of_Program" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Time" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Zone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LDC" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="LDCCellPhone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DM" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="RequestReceived" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Confirmed Event Date]" Member="Confirmed_Event_Date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ProgramPending" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IfCancelled" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ifCancelled2" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ifCancelled3" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ProgramStatusNotes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="[1stChoice]" Member="_1stChoice" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="[2ndChoice]" Member="_2ndChoice" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="[3rdChoice]" Member="_3rdChoice" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="ConfirmedSpeaker" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="[1stChoiceDate]" Member="_1stChoiceDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Air" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Hotel" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Ground" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[Speaker Fee]" Member="Speaker_Fee" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[Speaker Fee Date]" Member="Speaker_Fee_Date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Travel Expense]" Member="Travel_Expense" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[Travel Expense Date]" Member="Travel_Expense_Date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="VenueName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="VenueAddress1" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="VenueAddress2" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="VenueCity" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="VenueState" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="VenueZip" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="VenuePhone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="VenueContact" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="HEadCount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Total F&amp;B]" Member="Total_F_B" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="RoomCharge" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[VenueA/VCost]" Member="VenueA_VCost" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[A/V]" Member="A_V" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="InvitationPDFUploaded" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AdditionalReqMeetingDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DomeManagerCellPhone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Parking" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Accounting" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="invite_qty" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Invite" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[Fed Ex]" Member="Fed_Ex" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="WebEventifCancelled1" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="WebExpense" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="WebProduction" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ThirdRequestDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Event Mgt Svcs]" Member="Event_Mgt_Svcs" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Meal" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Presentation Title]" Member="Presentation_Title" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="[preconfirmed speaker]" Member="preconfirmed_speaker" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="[preconfirmed meeting date]" Member="preconfirmed_meeting_date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Financial Notes]" Member="Financial_Notes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="[program details upload]" Member="program_details_upload" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[attendee upload]" Member="attendee_upload" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[speaker upload]" Member="speaker_upload" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Apex Job Number]" Member="Apex_Job_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Check Number Fee]" Member="Check_Number_Fee" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="[Check Number Travel]" Member="Check_Number_Travel" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="[Number of rehearsals]" Member="Number_of_rehearsals" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="[OIG Check date speaker bureau]" Member="OIG_Check_date_speaker_bureau" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="[EPLS Check date speaker bureau]" Member="EPLS_Check_date_speaker_bureau" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="[FDAdebarment_speaker bureau]" Member="FDAdebarment_speaker_bureau" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Region" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[If cancelled, Travel1]" Member="If_cancelled__Travel1" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="[If cancelled, Travel2]" Member="If_cancelled__Travel2" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="[If cancelled, Travel3]" Member="If_cancelled__Travel3" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="[Any reason for cancel1]" Member="Any_reason_for_cancel1" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="[Invitations Mailed]" Member="Invitations_Mailed" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="invite_qty2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="invite2" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[Dual Speaker]" Member="Dual_Speaker" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="[Dual Speaker Fee]" Member="Dual_Speaker_Fee" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Dual Speaker Expenses]" Member="Dual_Speaker_Expenses" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Dual Speaker Air]" Member="Dual_Speaker_Air" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Dual Speaker Hotel]" Member="Dual_Speaker_Hotel" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Dual Speaker Ground]" Member="Dual_Speaker_Ground" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[4thChoiceDate]" Member="_4thChoiceDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[4thchoicespeaker]" Member="_4thchoicespeaker" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="[5thchoicespeaker]" Member="_5thchoicespeaker" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="dualspeakerfeedateoncheck" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dualspeakerexpensesdateoncheck" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dualspeakerfeechecknumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dualspeakerexpenseschecknumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Grand Total F&amp;B]" Member="Grand_Total_F_B" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[Grand Total Speaker]" Member="Grand_Total_Speaker" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[Invitation Total]" Member="Invitation_Total" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[Web Total]" Member="Web_Total" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[Total Change Costs]" Member="Total_Change_Costs" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[Total Cancellation Costs]" Member="Total_Cancellation_Costs" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[Last Edited]" Member="Last_Edited" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="[All Costs for Program Entered]" Member="All_Costs_for_Program_Entered" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[Totality Uploaded]" Member="Totality_Uploaded" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LDC_Phone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LDC_Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="[venue cancellation fee]" Member="venue_cancellation_fee" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[CWT Transaction Fee]" Member="CWT_Transaction_Fee" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[CWT Transaction Fee Changes]" Member="CWT_Transaction_Fee_Changes" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="[Train Expense]" Member="Train_Expense" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[CWT Transaction Fee Ground]" Member="CWT_Transaction_Fee_Ground" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[CWT Transaction Fee Hotel]" Member="CWT_Transaction_Fee_Hotel" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[CWT Transaction Fee Changes Ground]" Member="CWT_Transaction_Fee_Changes_Ground" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="[CWT Transaction Fee Changes Hotel]" Member="CWT_Transaction_Fee_Changes_Hotel" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="[CWT Transaction Fee Total]" Member="CWT_Transaction_Fee_Total" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[Confirmed Speaker Phone]" Member="Confirmed_Speaker_Phone" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="[Confirmed Speaker Email]" Member="Confirmed_Speaker_Email" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="[Venue Receipt Received]" Member="Venue_Receipt_Received" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="[Attendee Checklist Received]" Member="Attendee_Checklist_Received" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="[Attendees served]" Member="Attendees_served" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[Cost per attendee]" Member="Cost_per_attendee" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Totalityneeded" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="signinsheetuploaded" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="[folder received]" Member="folder_received" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="[totality completed by]" Member="totality_completed_by" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="cancel_email_requested" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CardRequested" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CardNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CardImage" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="CardImageBack" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="EndTime" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EndTimeZone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[apex fax number]" Member="apex_fax_number" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DMTitle" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="checkrequest" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="[Booked via Get There]" Member="Booked_via_Get_There" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="[Dual Speaker Phone]" Member="Dual_Speaker_Phone" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="[Dual Speaker Email]" Member="Dual_Speaker_Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="[CWT2 Transaction Fee Changes Ground]" Member="CWT2_Transaction_Fee_Changes_Ground" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="[CWT2 Transaction Fee Changes]" Member="CWT2_Transaction_Fee_Changes" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="[CWT2 Transaction Fee Ground]" Member="CWT2_Transaction_Fee_Ground" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[CWT2 Transaction Fee Total]" Member="CWT2_Transaction_Fee_Total" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[CWT2 Transaction Fee]" Member="CWT2_Transaction_Fee" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="domelink" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="vipdialin" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="participantdialin" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="inviteprint2" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="inviteprint3" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="domemgremail" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="[Presentation Time]" Member="Presentation_Time" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="[Meal and Presentation Type]" Member="Meal_and_Presentation_Type" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="[Confirmed Date for Invite]" Member="Confirmed_Date_for_Invite" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="WebEventifCancelled2" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="WebEventifCancelled3" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="[Any reason for cancel2]" Member="Any_reason_for_cancel2" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="[Any reason for cancel3]" Member="Any_reason_for_cancel3" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Totality" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[CWT2 Transaction Fee Hotel]" Member="CWT2_Transaction_Fee_Hotel" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[CWT2 Transaction Fee Changes Hotel]" Member="CWT2_Transaction_Fee_Changes_Hotel" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="[2ndChoiceDate]" Member="_2ndChoiceDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[3rdChoiceDate]" Member="_3rdChoiceDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Service Vendor Fee]" Member="Service_Vendor_Fee" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="inviteprint1" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="ConfirmedSpeakerDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="franchise" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[meeting format]" Member="meeting_format" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[meal type]" Member="meal_type" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[location type]" Member="location_type" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[non compliant venue]" Member="non_compliant_venue" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="[venue contact email]" Member="venue_contact_email" Type="System.String" DbType="VarChar(75)" CanBeNull="true" />
+      <Column Name="[fedex tracking invitations]" Member="fedex_tracking_invitations" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[fedex tracking in office]" Member="fedex_tracking_in_office" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[date in office shipment mailed]" Member="date_in_office_shipment_mailed" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="[additional shipments notes]" Member="additional_shipments_notes" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="[unmet minimum]" Member="unmet_minimum" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[no of guaranteed attendees]" Member="no_of_guaranteed_attendees" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[fedex tracking speaker fee]" Member="fedex_tracking_speaker_fee" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[fedex tracking speaker expense]" Member="fedex_tracking_speaker_expense" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[date submitted for totality]" Member="date_submitted_for_totality" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="[fedex tracking speaker fee rheum]" Member="fedex_tracking_speaker_fee_rheum" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[fedex tracking speaker expense rheum]" Member="fedex_tracking_speaker_expense_rheum" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[fedex tracking dual speaker fee]" Member="fedex_tracking_dual_speaker_fee" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[fedex tracking dual speaker expense]" Member="fedex_tracking_dual_speaker_expense" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[based on guarantee]" Member="based_on_guarantee" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="[QC By]" Member="QC_By" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="[QC Date]" Member="QC_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="[Total restaurant catering receipt]" Member="Total_restaurant_catering_receipt" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.JB_INVITE_TRACKER" Member="JB_INVITE_TRACKERs">
+    <Type Name="JB_INVITE_TRACKER">
+      <Column Name="ID" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[Apex Job Number]" Member="Apex_Job_Number" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[NFP Code/Janssen ID]" Member="NFP_Code_Janssen_ID" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="InviteSent" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

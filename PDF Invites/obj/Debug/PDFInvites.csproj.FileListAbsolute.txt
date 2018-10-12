@@ -1,0 +1,13 @@
+C:\Users\stat3297\Documents\Visual Studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\itextsharp.dll
+C:\Users\stat3297\Documents\Visual Studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\itextsharp.pdfa.dll
+C:\Users\stat3297\Documents\Visual Studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\Newtonsoft.Json.dll
+C:\Users\stat3297\Documents\Visual Studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\Newtonsoft.Json.xml
+C:\Users\stat3297\Documents\Visual Studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\PDFInvites.exe.config
+C:\Users\stat3297\Documents\Visual Studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\PDFInvites.exe
+C:\Users\stat3297\Documents\Visual Studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\PDFInvites.pdb
+C:\Users\stat3297\Documents\Visual Studio 2015\Projects\PDF Invites\PDF Invites\obj\Debug\PDFInvites.exe
+C:\Users\stat3297\Documents\Visual Studio 2015\Projects\PDF Invites\PDF Invites\obj\Debug\PDFInvites.pdb
+C:\Users\stat3297\Documents\Visual Studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\DocX.dll
+C:\Users\stat3297\Documents\Visual Studio 2015\Projects\PDF Invites\PDF Invites\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\stat3297\Documents\Visual Studio 2015\Projects\PDF Invites\PDF Invites\obj\Debug\PDFInvites.csproj.CoreCompileInputs.cache
+C:\Users\stat3297\Documents\Visual Studio 2015\Projects\PDF Invites\PDF Invites\obj\Debug\PDFInvites.csproj.CopyComplete
